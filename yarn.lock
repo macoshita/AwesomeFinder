@@ -1412,7 +1412,7 @@ fbjs-scripts@^0.7.0:
     semver "^5.1.0"
     through2 "^2.0.0"
 
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.5:
+fbjs@^0.8.1, fbjs@^0.8.3, fbjs@^0.8.4, fbjs@^0.8.5:
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.8.tgz#02f1b6e0ea0d46c24e0b51a2d24df069563a5ad6"
   dependencies:
@@ -3011,10 +3011,6 @@ react-native-fs@^2.0.1-rc.2:
     base-64 "^0.1.0"
     utf8 "^2.1.1"
 
-react-native-pdf-view@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/react-native-pdf-view/-/react-native-pdf-view-0.3.2.tgz#aca9887079bf8f71a3123e23d6ee36f55724a9d8"
-
 react-native-router-flux@^3.37.0:
   version "3.37.0"
   resolved "https://registry.yarnpkg.com/react-native-router-flux/-/react-native-router-flux-3.37.0.tgz#18e8fd3e1e6dbdc4d8340cd47313c28bb9bb1caf"
@@ -3031,6 +3027,12 @@ react-native-search-bar@^2.16.0:
 react-native-tabs@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/react-native-tabs/-/react-native-tabs-1.0.9.tgz#75d3c35e8b5b6970869eab282372cb32e2a782cd"
+
+react-native-wkwebview-reborn@tomasc/react-native-wkwebview:
+  version "0.4.0"
+  resolved "https://codeload.github.com/tomasc/react-native-wkwebview/tar.gz/b7285db5874589d3bb5d15b361c260ad5436f547"
+  dependencies:
+    fbjs "^0.8.3"
 
 react-native@0.39.2:
   version "0.39.2"

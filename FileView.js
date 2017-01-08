@@ -5,12 +5,13 @@ import {
   Text,
   AlertIOS
 } from 'react-native'
-import PDFView from 'react-native-pdf-view'
+import WKWebView from 'react-native-wkwebview-reborn'
+import RNFS from 'react-native-fs'
 import Phonetic from './lib/Phonetic'
 
 export default class FileView extends Component {
   render () {
-    return <PDFView src={this.props.path} style={{flex: 1, marginTop: 64}}/>
+    return <WKWebView source={{file: this.props.path, allowingReadAccessToURL: RNFS.DocumentDirectoryPath}} style={{flex: 1, marginTop: 64}}/>
   }
 
   static async changePhonetic (scene) {

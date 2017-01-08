@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -22,8 +21,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2FB9FF33B5B24B009EFBB8E3 /* libRNPDFView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6C7CD4667342E3A28F32AA /* libRNPDFView.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		6F9617E67CCE438DA461F034 /* libRCTWKWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F70605C375456DB2AB857A /* libRCTWKWebView.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		B64718891E195AE400FAACB9 /* Phonetic.m in Sources */ = {isa = PBXBuildFile; fileRef = B64718881E195AE400FAACB9 /* Phonetic.m */; };
 		F3570EC879BA4D008B37BF76 /* libRNFS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9157750D7C5A45D2BD074D64 /* libRNFS.a */; };
@@ -122,19 +121,19 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		B64718C31E1CE70D00FAACB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A25E91967694EBA9F425DE5 /* RNPDFView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 20D8E03F1C8E946C00039823;
-			remoteInfo = RNPDFView;
-		};
 		B66717791E18DAC2003A3891 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C537EC671044A9894365A78 /* RNSearchBar.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNSearchBar;
+		};
+		B66A91B11E2248F200A51BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B884AB426B74C75A5A4D40C /* RCTWKWebView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0974579A1D2A440A000D9368;
+			remoteInfo = RCTWKWebView;
 		};
 		B69CD23F1E0D0205005ACE2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -214,15 +213,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeFinder/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeFinder/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		3A25E91967694EBA9F425DE5 /* RNPDFView.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNPDFView.xcodeproj; path = "../node_modules/react-native-pdf-view/RNPDFView.xcodeproj"; sourceTree = "<group>"; };
+		47F70605C375456DB2AB857A /* libRCTWKWebView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTWKWebView.a; sourceTree = "<group>"; };
 		5C537EC671044A9894365A78 /* RNSearchBar.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSearchBar.xcodeproj; path = "../node_modules/react-native-search-bar/RNSearchBar.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		6B884AB426B74C75A5A4D40C /* RCTWKWebView.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTWKWebView.xcodeproj; path = "../node_modules/react-native-wkwebview-reborn/ios/RCTWKWebView.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		9157750D7C5A45D2BD074D64 /* libRNFS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFS.a; sourceTree = "<group>"; };
 		B64718871E195AE400FAACB9 /* Phonetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phonetic.h; sourceTree = "<group>"; };
 		B64718881E195AE400FAACB9 /* Phonetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phonetic.m; sourceTree = "<group>"; };
-		BA6C7CD4667342E3A28F32AA /* libRNPDFView.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNPDFView.a; sourceTree = "<group>"; };
 		E08E63A5138844D2A596CC52 /* RNFS.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
 		EDE6E762F8934D2BA495E5CF /* libRNSearchBar.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSearchBar.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -253,7 +252,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				F3570EC879BA4D008B37BF76 /* libRNFS.a in Frameworks */,
 				FC1216A342FC42B299572379 /* libRNSearchBar.a in Frameworks */,
-				2FB9FF33B5B24B009EFBB8E3 /* libRNPDFView.a in Frameworks */,
+				6F9617E67CCE438DA461F034 /* libRCTWKWebView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +395,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				E08E63A5138844D2A596CC52 /* RNFS.xcodeproj */,
 				5C537EC671044A9894365A78 /* RNSearchBar.xcodeproj */,
-				3A25E91967694EBA9F425DE5 /* RNPDFView.xcodeproj */,
+				6B884AB426B74C75A5A4D40C /* RCTWKWebView.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -431,18 +430,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B64718AC1E1CE70D00FAACB9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B64718C41E1CE70D00FAACB9 /* libRNPDFView.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		B66717621E18DAC2003A3891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B667177A1E18DAC2003A3891 /* libRNSearchBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66A919D1E2248F000A51BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66A91B21E2248F200A51BC7 /* libRCTWKWebView.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -500,7 +499,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 820;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -565,16 +564,16 @@
 					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
 				},
 				{
+					ProductGroup = B66A919D1E2248F000A51BC7 /* Products */;
+					ProjectRef = 6B884AB426B74C75A5A4D40C /* RCTWKWebView.xcodeproj */;
+				},
+				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
 					ProductGroup = B69CD2371E0D0205005ACE2E /* Products */;
 					ProjectRef = E08E63A5138844D2A596CC52 /* RNFS.xcodeproj */;
-				},
-				{
-					ProductGroup = B64718AC1E1CE70D00FAACB9 /* Products */;
-					ProjectRef = 3A25E91967694EBA9F425DE5 /* RNPDFView.xcodeproj */;
 				},
 				{
 					ProductGroup = B66717621E18DAC2003A3891 /* Products */;
@@ -674,18 +673,18 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B64718C41E1CE70D00FAACB9 /* libRNPDFView.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNPDFView.a;
-			remoteRef = B64718C31E1CE70D00FAACB9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		B667177A1E18DAC2003A3891 /* libRNSearchBar.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNSearchBar.a;
 			remoteRef = B66717791E18DAC2003A3891 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B66A91B21E2248F200A51BC7 /* libRCTWKWebView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWKWebView.a;
+			remoteRef = B66A91B11E2248F200A51BC7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		B69CD2401E0D0205005ACE2E /* libRCTImage-tvOS.a */ = {
@@ -837,9 +836,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -857,9 +853,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -950,9 +943,9 @@
 					"$(SRCROOT)/../node_modules/react-native/ReactCommon/**",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
 					"$(SRCROOT)/../node_modules/react-native-search-bar/**",
-					"$(SRCROOT)/../node_modules/react-native-pdf-view/RNPDFView",
+					"$(SRCROOT)/../node_modules/react-native-wkwebview-reborn/ios/RCTWKWebView",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -997,9 +990,9 @@
 					"$(SRCROOT)/../node_modules/react-native/ReactCommon/**",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
 					"$(SRCROOT)/../node_modules/react-native-search-bar/**",
-					"$(SRCROOT)/../node_modules/react-native-pdf-view/RNPDFView",
+					"$(SRCROOT)/../node_modules/react-native-wkwebview-reborn/ios/RCTWKWebView",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
